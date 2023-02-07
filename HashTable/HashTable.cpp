@@ -24,12 +24,12 @@ int main(){
 
     srand(time(0));
 
-    int Totalpeople = 10, test, count;
+    int test, count;
     Node *start;
     char Name[10][15] = {"Kobe", "Adam", "Harden", "Helen", "Anthony", "Westbrook", "Irving", "Paul", "James", "Davis"};
     int tag[10];
 
-    for (int i = 0; i < Totalpeople; ++i) {
+    for (int i = 0; i < 10; ++i) {
         tag[i] = rand() % 200 + 1;
         for (int j = 0; j < i; ++j) {
             if (tag[j] == tag[i]) {
@@ -39,11 +39,11 @@ int main(){
         }
     }
 
-    for (int i = 0; i < Totalpeople; ++i)
+    for (int i = 0; i < 10; ++i)
         cout << "tag[" << i+1 << "] = " << tag[i] << " ";
     cout << endl;
 
-    for (int i = 0; i < Totalpeople; ++i)
+    for (int i = 0; i < 10; ++i)
         BuildHashTable(tag[i], Name[i]);
 
     cout << "Hash Table:" << endl;
