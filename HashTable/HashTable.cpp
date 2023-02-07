@@ -26,8 +26,8 @@ int main(){
 
     int Totalpeople = 10, test, count;
     Node *start;
-    char Name[Totalpeople][15] = {"Kobe", "Adam", "Harden", "Helen", "Anthony", "Westbrook", "Irving", "Paul", "James", "Davis"};
-    int tag[Totalpeople];
+    char Name[10][15] = {"Kobe", "Adam", "Harden", "Helen", "Anthony", "Westbrook", "Irving", "Paul", "James", "Davis"};
+    int tag[10];
 
     for (int i = 0; i < Totalpeople; ++i) {
         tag[i] = rand() % 200 + 1;
