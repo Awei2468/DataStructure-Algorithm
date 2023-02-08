@@ -178,36 +178,36 @@ int main() {
 
     myDouble.PushFront(8);
     myDouble.PushBack(20);
-    myDouble.PrintResult();
+    myDouble.PrintResult(); //8 <-> 0 <-> 20
 
-    myDouble.Reverse();
+    myDouble.Reverse(); //20 <-> 0 <-> 8
 
-    myDouble.PushAheadOneNode(20,35);
-    myDouble.PrintResult();
+    myDouble.PushAheadOneNode(20,35); 
+    myDouble.PrintResult(); //8 <-> 0 <-> 35 <-> 20
 
-    myDouble.PushAheadOneNode(8,66);
-    myDouble.PrintResult();
+    myDouble.PushAheadOneNode(8,66); 
+    myDouble.PrintResult(); //66 <-> 8 <-> 0 <-> 35 <-> 20
 
     myDouble.PushAheadOneNode(100,200);
-    myDouble.PrintResult();
+    myDouble.PrintResult(); //100 didn't appear in the double link list
 
     myDouble.PushBehindOneNode(66,72);
-    myDouble.PrintResult();
+    myDouble.PrintResult(); //66 <-> 72 <-> 8 <-> 0 <-> 35 <-> 20
 
     myDouble.PushBehindOneNode(20,150);
-    myDouble.PrintResult();
+    myDouble.PrintResult(); //66 <-> 72 <-> 8 <-> 0 <-> 35 <-> 20 <-> 150
 
     myDouble.PushBehindOneNode(60,80);
-    myDouble.PrintResult();
+    myDouble.PrintResult(); //60 didn't appear in the double link list
 
     myDouble.DeleteNode(66);
-    myDouble.PrintResult();
+    myDouble.PrintResult(); //72 <-> 8 <-> 0 <-> 35 <-> 20 <-> 150
 
     myDouble.DeleteNode(0);
-    myDouble.PrintResult();
+    myDouble.PrintResult(); //72 <-> 8 <-> 35 <-> 20 <-> 150
 
     myDouble.Clear();
-    myDouble.PrintResult();
+    myDouble.PrintResult(); //The double link list is empty
 
     system("pause");
     return 0;
