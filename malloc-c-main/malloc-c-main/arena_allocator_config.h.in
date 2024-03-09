@@ -1,0 +1,2 @@
+#define ArenaAllocator_VERSION_MAJOR @ArenaAllocator_VERSION_MAJOR@
+#define ArenaAllocator_VERSION_MINOR @ArenaAllocator_VERSION_MINOR@
