@@ -14,7 +14,7 @@ void solve() {
         cin>>dig[i];
         cnt[dig[i]]++;
     }
-    for(int i = 0; i < n; ++i) {
+    for(int i = 0; i < n; ++i) { //calculate dig count
         if(cnt[dig[i]]==1) {
             cout<<i+1<<endl;
             break;
