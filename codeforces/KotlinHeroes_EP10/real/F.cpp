@@ -5,8 +5,18 @@ using namespace std;
 typedef unsigned long long ULL;
 typedef long long LL;
 
-void solve() {
-    
+void solve() { //1208. Get Equal Substrings Within Budget
+    int n = s.size(), res = 0, l = 0, r = 0, dif = 0;
+    while (r < n) {
+        dif += abs(s[r]-t[r]);
+        ++r;
+        while (l < r && dif > maxCost) {
+            dif -= abs(s[l]-t[l]);
+            ++l;
+        }
+        res = max(res, r-l);
+    }
+    cout << res << endl;
 }
 
 int main() {
