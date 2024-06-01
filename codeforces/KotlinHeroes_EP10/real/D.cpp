@@ -6,7 +6,7 @@ typedef unsigned long long ULL;
 typedef long long LL;
 
 void solve() { //comment for master solve
-    int a = 1;
+    int a = 5;
     cout << a << endl;
 }
 
