@@ -5,17 +5,9 @@ using namespace std;
 typedef unsigned long long ULL;
 typedef long long LL;
 
-<<<<<<< HEAD
 void solve() { //comment for master solve
-<<<<<<< HEAD
-    int a = 5;
+    int a = 1;
     cout << a << endl;
-=======
-=======
-void solve() { //comment newbranch1 for solve
->>>>>>> newbranch1
-    
->>>>>>> parent of b1dd604 (add veriable a and print)
 }
 
 int main() {
