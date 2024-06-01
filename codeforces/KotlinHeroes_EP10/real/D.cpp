@@ -5,7 +5,7 @@ using namespace std;
 typedef unsigned long long ULL;
 typedef long long LL;
 
-void solve() {
+void solve() { //comment for master solve
     
 }
 
