@@ -5,7 +5,11 @@ using namespace std;
 typedef unsigned long long ULL;
 typedef long long LL;
 
+<<<<<<< HEAD
 void solve() { //comment for master solve
+=======
+void solve() { //comment newbranch1 for solve
+>>>>>>> newbranch1
     
 }
 
